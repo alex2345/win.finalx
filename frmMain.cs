@@ -16,5 +16,10 @@ namespace winFinal
         {
             InitializeComponent();
         }
+
+        private void toolStrip_a1_Click(object sender, EventArgs e)
+        {
+            frmA1 a1 = new winFinal.frmA1();a1.Show();
+        }
     }
 }
