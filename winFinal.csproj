@@ -44,6 +44,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmA6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmA6.Designer.cs">
+      <DependentUpon>frmA6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm00.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm00.Designer.cs">
+      <DependentUpon>frm00.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmA5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmA5.Designer.cs">
+      <DependentUpon>frmA5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmA4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmA4.Designer.cs">
+      <DependentUpon>frmA4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmA3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmA3.Designer.cs">
+      <DependentUpon>frmA3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmA2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmA2.Designer.cs">
+      <DependentUpon>frmA2.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmA1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +94,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmA6.resx">
+      <DependentUpon>frmA6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm00.resx">
+      <DependentUpon>frm00.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmA5.resx">
+      <DependentUpon>frmA5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmA4.resx">
+      <DependentUpon>frmA4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmA3.resx">
+      <DependentUpon>frmA3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmA2.resx">
+      <DependentUpon>frmA2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmA1.resx">
       <DependentUpon>frmA1.cs</DependentUpon>
     </EmbeddedResource>
@@ -73,6 +132,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -85,6 +148,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\circle_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\circle_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\circle_yellow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
