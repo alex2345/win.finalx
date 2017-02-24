@@ -97,7 +97,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1115, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(1046, 33);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -173,18 +173,21 @@
             this.ToolStrip_b1.Name = "ToolStrip_b1";
             this.ToolStrip_b1.Size = new System.Drawing.Size(264, 30);
             this.ToolStrip_b1.Text = "MessageBox";
+            this.ToolStrip_b1.Click += new System.EventHandler(this.ToolStrip_b1_Click);
             // 
             // ToolStrip_b2
             // 
             this.ToolStrip_b2.Name = "ToolStrip_b2";
             this.ToolStrip_b2.Size = new System.Drawing.Size(264, 30);
             this.ToolStrip_b2.Text = "InputBox";
+            this.ToolStrip_b2.Click += new System.EventHandler(this.ToolStrip_b2_Click);
             // 
             // ToolStrip_b3
             // 
             this.ToolStrip_b3.Name = "ToolStrip_b3";
             this.ToolStrip_b3.Size = new System.Drawing.Size(264, 30);
             this.ToolStrip_b3.Text = "KeyPress, KeyDown";
+            this.ToolStrip_b3.Click += new System.EventHandler(this.ToolStrip_b3_Click);
             // 
             // toolStripMenuItem_c
             // 
@@ -205,36 +208,42 @@
             this.toolStrip_c1.Name = "toolStrip_c1";
             this.toolStrip_c1.Size = new System.Drawing.Size(366, 30);
             this.toolStrip_c1.Text = "Sum 1..100";
+            this.toolStrip_c1.Click += new System.EventHandler(this.toolStrip_c1_Click);
             // 
             // toolStrip_c2
             // 
             this.toolStrip_c2.Name = "toolStrip_c2";
             this.toolStrip_c2.Size = new System.Drawing.Size(366, 30);
             this.toolStrip_c2.Text = "Array A[1..10] B[1..10]求AxB=?";
+            this.toolStrip_c2.Click += new System.EventHandler(this.toolStrip_c2_Click);
             // 
             // toolStrip_c3
             // 
             this.toolStrip_c3.Name = "toolStrip_c3";
             this.toolStrip_c3.Size = new System.Drawing.Size(366, 30);
             this.toolStrip_c3.Text = "上例使用動態陣列";
+            this.toolStrip_c3.Click += new System.EventHandler(this.toolStrip_c3_Click);
             // 
             // toolStrip_c4
             // 
             this.toolStrip_c4.Name = "toolStrip_c4";
             this.toolStrip_c4.Size = new System.Drawing.Size(366, 30);
             this.toolStrip_c4.Text = "if then else(及格補考死當)";
+            this.toolStrip_c4.Click += new System.EventHandler(this.toolStrip_c4_Click);
             // 
             // toolStrip_c5
             // 
             this.toolStrip_c5.Name = "toolStrip_c5";
             this.toolStrip_c5.Size = new System.Drawing.Size(366, 30);
             this.toolStrip_c5.Text = "Switch(依年齡電影分級)";
+            this.toolStrip_c5.Click += new System.EventHandler(this.toolStrip_c5_Click);
             // 
             // toolStrip_c6
             // 
             this.toolStrip_c6.Name = "toolStrip_c6";
             this.toolStrip_c6.Size = new System.Drawing.Size(366, 30);
             this.toolStrip_c6.Text = "輸入溫度求一周均溫(有小數點)";
+            this.toolStrip_c6.Click += new System.EventHandler(this.toolStrip_c6_Click);
             // 
             // toolStripMenuItem_d
             // 
@@ -254,30 +263,35 @@
             this.toolStrip_d1.Name = "toolStrip_d1";
             this.toolStrip_d1.Size = new System.Drawing.Size(448, 30);
             this.toolStrip_d1.Text = "Button1按一次下移20pixel循環移動";
+            this.toolStrip_d1.Click += new System.EventHandler(this.toolStrip_d1_Click);
             // 
             // toolStrip_d2
             // 
             this.toolStrip_d2.Name = "toolStrip_d2";
             this.toolStrip_d2.Size = new System.Drawing.Size(448, 30);
             this.toolStrip_d2.Text = "Button1按一次Image1,Image2交換圖片";
+            this.toolStrip_d2.Click += new System.EventHandler(this.toolStrip_d2_Click);
             // 
             // toolStrip_d3
             // 
             this.toolStrip_d3.Name = "toolStrip_d3";
             this.toolStrip_d3.Size = new System.Drawing.Size(448, 30);
             this.toolStrip_d3.Text = "示範陣列功能";
+            this.toolStrip_d3.Click += new System.EventHandler(this.toolStrip_d3_Click);
             // 
             // toolStrip_d4
             // 
             this.toolStrip_d4.Name = "toolStrip_d4";
             this.toolStrip_d4.Size = new System.Drawing.Size(448, 30);
             this.toolStrip_d4.Text = "示範物件導向功能";
+            this.toolStrip_d4.Click += new System.EventHandler(this.toolStrip_d4_Click);
             // 
             // toolStrip_d5
             // 
             this.toolStrip_d5.Name = "toolStrip_d5";
             this.toolStrip_d5.Size = new System.Drawing.Size(448, 30);
             this.toolStrip_d5.Text = "使用陣列將字串分解為字元";
+            this.toolStrip_d5.Click += new System.EventHandler(this.toolStrip_d5_Click);
             // 
             // toolStripMenuItem_e
             // 
@@ -296,24 +310,28 @@
             this.toolStrip_e1.Name = "toolStrip_e1";
             this.toolStrip_e1.Size = new System.Drawing.Size(294, 30);
             this.toolStrip_e1.Text = "RichtextBox開檔、存檔";
+            this.toolStrip_e1.Click += new System.EventHandler(this.toolStrip_e1_Click);
             // 
             // toolStrip_e2
             // 
             this.toolStrip_e2.Name = "toolStrip_e2";
             this.toolStrip_e2.Size = new System.Drawing.Size(294, 30);
             this.toolStrip_e2.Text = "上例轉成CSV檔";
+            this.toolStrip_e2.Click += new System.EventHandler(this.toolStrip_e2_Click);
             // 
             // toolStrip_e3
             // 
             this.toolStrip_e3.Name = "toolStrip_e3";
             this.toolStrip_e3.Size = new System.Drawing.Size(294, 30);
             this.toolStrip_e3.Text = "顯示 Unicode";
+            this.toolStrip_e3.Click += new System.EventHandler(this.toolStrip_e3_Click);
             // 
             // toolStrip_e4
             // 
             this.toolStrip_e4.Name = "toolStrip_e4";
             this.toolStrip_e4.Size = new System.Drawing.Size(294, 30);
             this.toolStrip_e4.Text = "顯示ASCII 32~255字元";
+            this.toolStrip_e4.Click += new System.EventHandler(this.toolStrip_e4_Click);
             // 
             // toolStripMenuItem_f
             // 
@@ -334,36 +352,42 @@
             this.toolStrip_f1.Name = "toolStrip_f1";
             this.toolStrip_f1.Size = new System.Drawing.Size(450, 30);
             this.toolStrip_f1.Text = "RadioGroup";
+            this.toolStrip_f1.Click += new System.EventHandler(this.toolStrip_f1_Click);
             // 
             // toolStrip_f2
             // 
             this.toolStrip_f2.Name = "toolStrip_f2";
             this.toolStrip_f2.Size = new System.Drawing.Size(450, 30);
             this.toolStrip_f2.Text = "CheckListBox";
+            this.toolStrip_f2.Click += new System.EventHandler(this.toolStrip_f2_Click);
             // 
             // toolStrip_f3
             // 
             this.toolStrip_f3.Name = "toolStrip_f3";
             this.toolStrip_f3.Size = new System.Drawing.Size(450, 30);
             this.toolStrip_f3.Text = "模仿麥當勞點餐機";
+            this.toolStrip_f3.Click += new System.EventHandler(this.toolStrip_f3_Click);
             // 
             // toolStrip_f4
             // 
             this.toolStrip_f4.Name = "toolStrip_f4";
             this.toolStrip_f4.Size = new System.Drawing.Size(450, 30);
             this.toolStrip_f4.Text = "ListBox支援加入、刪除、修改、清除功能";
+            this.toolStrip_f4.Click += new System.EventHandler(this.toolStrip_f4_Click);
             // 
             // toolStrip_f5
             // 
             this.toolStrip_f5.Name = "toolStrip_f5";
             this.toolStrip_f5.Size = new System.Drawing.Size(450, 30);
             this.toolStrip_f5.Text = "UpDown+Edit";
+            this.toolStrip_f5.Click += new System.EventHandler(this.toolStrip_f5_Click);
             // 
             // toolStrip_f6
             // 
             this.toolStrip_f6.Name = "toolStrip_f6";
             this.toolStrip_f6.Size = new System.Drawing.Size(450, 30);
             this.toolStrip_f6.Text = "DateTimePicker Calendar";
+            this.toolStrip_f6.Click += new System.EventHandler(this.toolStrip_f6_Click);
             // 
             // toolStripMenuItem_g
             // 
@@ -385,42 +409,49 @@
             this.toolStrip_g1.Name = "toolStrip_g1";
             this.toolStrip_g1.Size = new System.Drawing.Size(304, 30);
             this.toolStrip_g1.Text = "製作Timer倒數計時器";
+            this.toolStrip_g1.Click += new System.EventHandler(this.toolStrip_g1_Click);
             // 
             // toolStrip_g2
             // 
             this.toolStrip_g2.Name = "toolStrip_g2";
             this.toolStrip_g2.Size = new System.Drawing.Size(304, 30);
             this.toolStrip_g2.Text = "製作紅黃綠號誌燈";
+            this.toolStrip_g2.Click += new System.EventHandler(this.toolStrip_g2_Click);
             // 
             // toolStrip_g3
             // 
             this.toolStrip_g3.Name = "toolStrip_g3";
             this.toolStrip_g3.Size = new System.Drawing.Size(304, 30);
             this.toolStrip_g3.Text = "換算攝氏及華式溫度";
+            this.toolStrip_g3.Click += new System.EventHandler(this.toolStrip_g3_Click);
             // 
             // toolStrip_g4
             // 
             this.toolStrip_g4.Name = "toolStrip_g4";
             this.toolStrip_g4.Size = new System.Drawing.Size(304, 30);
             this.toolStrip_g4.Text = "亂數產生器";
+            this.toolStrip_g4.Click += new System.EventHandler(this.toolStrip_g4_Click);
             // 
             // toolStrip_g5
             // 
             this.toolStrip_g5.Name = "toolStrip_g5";
             this.toolStrip_g5.Size = new System.Drawing.Size(304, 30);
             this.toolStrip_g5.Text = "樂透彩開獎程式";
+            this.toolStrip_g5.Click += new System.EventHandler(this.toolStrip_g5_Click);
             // 
             // toolStrip_g6
             // 
             this.toolStrip_g6.Name = "toolStrip_g6";
             this.toolStrip_g6.Size = new System.Drawing.Size(304, 30);
             this.toolStrip_g6.Text = "九九乘法表";
+            this.toolStrip_g6.Click += new System.EventHandler(this.toolStrip_g6_Click);
             // 
             // toolStrip_g7
             // 
             this.toolStrip_g7.Name = "toolStrip_g7";
             this.toolStrip_g7.Size = new System.Drawing.Size(304, 30);
             this.toolStrip_g7.Text = "2進位10進位16進位轉換";
+            this.toolStrip_g7.Click += new System.EventHandler(this.toolStrip_g7_Click);
             // 
             // toolStripMenuItem_h
             // 
@@ -440,36 +471,41 @@
             this.toolStrip_h1.Name = "toolStrip_h1";
             this.toolStrip_h1.Size = new System.Drawing.Size(230, 30);
             this.toolStrip_h1.Text = "連接資料庫";
+            this.toolStrip_h1.Click += new System.EventHandler(this.toolStrip_h1_Click);
             // 
             // toolStrip_h2
             // 
             this.toolStrip_h2.Name = "toolStrip_h2";
             this.toolStrip_h2.Size = new System.Drawing.Size(230, 30);
             this.toolStrip_h2.Text = "ListBox移動資料";
+            this.toolStrip_h2.Click += new System.EventHandler(this.toolStrip_h2_Click);
             // 
             // toolStrip_h3
             // 
             this.toolStrip_h3.Name = "toolStrip_h3";
             this.toolStrip_h3.Size = new System.Drawing.Size(230, 30);
             this.toolStrip_h3.Text = "電子相簿";
+            this.toolStrip_h3.Click += new System.EventHandler(this.toolStrip_h3_Click);
             // 
             // toolStrip_h4
             // 
             this.toolStrip_h4.Name = "toolStrip_h4";
             this.toolStrip_h4.Size = new System.Drawing.Size(230, 30);
             this.toolStrip_h4.Text = "移動坦克";
+            this.toolStrip_h4.Click += new System.EventHandler(this.toolStrip_h4_Click);
             // 
             // toolStrip_h5
             // 
             this.toolStrip_h5.Name = "toolStrip_h5";
             this.toolStrip_h5.Size = new System.Drawing.Size(230, 30);
             this.toolStrip_h5.Text = "資料查詢";
+            this.toolStrip_h5.Click += new System.EventHandler(this.toolStrip_h5_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1115, 253);
+            this.ClientSize = new System.Drawing.Size(1046, 253);
             this.Controls.Add(this.menuStrip1);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

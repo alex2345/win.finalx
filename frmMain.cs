@@ -46,5 +46,185 @@ namespace winFinal
         {
             frmA6 a6 = new winFinal.frmA6(); a6.Show();
         }
+
+        private void ToolStrip_b1_Click(object sender, EventArgs e)
+        {
+            frmB1 B1 = new winFinal.frmB1(); B1.Show();
+        }
+
+        private void ToolStrip_b2_Click(object sender, EventArgs e)
+        {
+            frmB2 B2 = new winFinal.frmB2(); B2.Show();
+        }
+
+        private void ToolStrip_b3_Click(object sender, EventArgs e)
+        {
+            frmB3 B3 = new winFinal.frmB3(); B3.Show();
+        }
+
+        private void toolStrip_c1_Click(object sender, EventArgs e)
+        {
+            frmC1 C1 = new winFinal.frmC1(); C1.Show();
+        }
+
+        private void toolStrip_c2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_c3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_c4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_c5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_c6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_d1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_d2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_d3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_d4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_d5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_e1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_e2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_e3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_e4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_f1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_f2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_f3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_f4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_f5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_f6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_g1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_g2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_g3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_g4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_g5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_g6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_g7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_h1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_h2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_h3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_h4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip_h5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
