@@ -139,67 +139,67 @@ namespace winFinal
 
         private void toolStrip_f1_Click(object sender, EventArgs e)
         {
-
+            frmF1 F1 = new winFinal.frmF1(); F1.Show();
         }
 
         private void toolStrip_f2_Click(object sender, EventArgs e)
         {
-
+            frmF2 F2 = new winFinal.frmF2(); F2.Show();
         }
 
         private void toolStrip_f3_Click(object sender, EventArgs e)
         {
-
+            frmF3 F3 = new winFinal.frmF3(); F3.Show();
         }
 
         private void toolStrip_f4_Click(object sender, EventArgs e)
         {
-
+            frmF4 F4 = new winFinal.frmF4(); F4.Show();
         }
 
         private void toolStrip_f5_Click(object sender, EventArgs e)
         {
-
+            frmF5 F5 = new winFinal.frmF5(); F5.Show();
         }
 
         private void toolStrip_f6_Click(object sender, EventArgs e)
         {
-
+            frmF6 F6 = new winFinal.frmF6(); F6.Show();
         }
 
         private void toolStrip_g1_Click(object sender, EventArgs e)
         {
-
+            frmG1 G1 = new winFinal.frmG1(); G1.Show();
         }
 
         private void toolStrip_g2_Click(object sender, EventArgs e)
         {
-
+            frmG2 G2 = new winFinal.frmG2(); G2.Show();
         }
 
         private void toolStrip_g3_Click(object sender, EventArgs e)
         {
-
+            frmG3 G3 = new winFinal.frmG3(); G3.Show();
         }
 
         private void toolStrip_g4_Click(object sender, EventArgs e)
         {
-
+            frmG4 G4 = new winFinal.frmG4(); G4.Show();
         }
 
         private void toolStrip_g5_Click(object sender, EventArgs e)
         {
-
+            frmG5 G5 = new winFinal.frmG5(); G5.Show();
         }
 
         private void toolStrip_g6_Click(object sender, EventArgs e)
         {
-
+            frmG6 G6 = new winFinal.frmG6(); G6.Show();
         }
 
         private void toolStrip_g7_Click(object sender, EventArgs e)
         {
-
+            frmG7 G7 = new winFinal.frmG7(); G7.Show();
         }
 
         private void toolStrip_h1_Click(object sender, EventArgs e)
