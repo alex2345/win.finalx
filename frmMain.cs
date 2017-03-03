@@ -119,22 +119,22 @@ namespace winFinal
 
         private void toolStrip_e1_Click(object sender, EventArgs e)
         {
-
+            frmE1 E1 = new winFinal.frmE1(); E1.Show();
         }
 
         private void toolStrip_e2_Click(object sender, EventArgs e)
         {
-
+            frmE2 E2 = new winFinal.frmE2(); E2.Show();
         }
 
         private void toolStrip_e3_Click(object sender, EventArgs e)
         {
-
+            frmE3 E3 = new winFinal.frmE3(); E3.Show();
         }
 
         private void toolStrip_e4_Click(object sender, EventArgs e)
         {
-
+            frmE4 E4 = new winFinal.frmE4(); E4.Show();
         }
 
         private void toolStrip_f1_Click(object sender, EventArgs e)

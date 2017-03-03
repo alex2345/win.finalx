@@ -44,6 +44,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmE2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE2.Designer.cs">
+      <DependentUpon>frmE2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE3.Designer.cs">
+      <DependentUpon>frmE3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE4.Designer.cs">
+      <DependentUpon>frmE4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE1.Designer.cs">
+      <DependentUpon>frmE1.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmD2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +207,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmE2.resx">
+      <DependentUpon>frmE2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmE3.resx">
+      <DependentUpon>frmE3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmE4.resx">
+      <DependentUpon>frmE4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmE1.resx">
+      <DependentUpon>frmE1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmD2.resx">
       <DependentUpon>frmD2.cs</DependentUpon>
     </EmbeddedResource>
