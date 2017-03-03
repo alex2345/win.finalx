@@ -94,27 +94,27 @@ namespace winFinal
 
         private void toolStrip_d1_Click(object sender, EventArgs e)
         {
-
+            frmD1 D1 = new winFinal.frmD1(); D1.Show();
         }
 
         private void toolStrip_d2_Click(object sender, EventArgs e)
         {
-
+            frmD2 D2 = new winFinal.frmD2(); D2.Show();
         }
 
         private void toolStrip_d3_Click(object sender, EventArgs e)
         {
-
+            frmD3 D3 = new winFinal.frmD3(); D3.Show();
         }
 
         private void toolStrip_d4_Click(object sender, EventArgs e)
         {
-
+            frmD4 D4 = new winFinal.frmD4(); D4.Show();
         }
 
         private void toolStrip_d5_Click(object sender, EventArgs e)
         {
-
+            frmD5 D5 = new winFinal.frmD5(); D5.Show();
         }
 
         private void toolStrip_e1_Click(object sender, EventArgs e)

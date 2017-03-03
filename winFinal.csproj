@@ -44,6 +44,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmD2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmD2.Designer.cs">
+      <DependentUpon>frmD2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmD3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmD3.Designer.cs">
+      <DependentUpon>frmD3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmD4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmD4.Designer.cs">
+      <DependentUpon>frmD4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmD5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmD5.Designer.cs">
+      <DependentUpon>frmD5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmD1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmD1.Designer.cs">
+      <DependentUpon>frmD1.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmC4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +183,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmD2.resx">
+      <DependentUpon>frmD2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmD3.resx">
+      <DependentUpon>frmD3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmD4.resx">
+      <DependentUpon>frmD4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmD5.resx">
+      <DependentUpon>frmD5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmD1.resx">
+      <DependentUpon>frmD1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmC4.resx">
       <DependentUpon>frmC4.cs</DependentUpon>
     </EmbeddedResource>

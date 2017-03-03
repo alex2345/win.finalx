@@ -262,7 +262,7 @@
             // 
             this.toolStrip_d1.Name = "toolStrip_d1";
             this.toolStrip_d1.Size = new System.Drawing.Size(448, 30);
-            this.toolStrip_d1.Text = "Button1按一次下移20pixel循環移動";
+            this.toolStrip_d1.Text = "Button1按一次下移 10 pixels 循環移動";
             this.toolStrip_d1.Click += new System.EventHandler(this.toolStrip_d1_Click);
             // 
             // toolStrip_d2
