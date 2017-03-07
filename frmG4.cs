@@ -17,5 +17,18 @@ namespace winFinal
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int guess;
+            Random r = new Random();
+            guess = r.Next(1, 47);
+            MessageBox.Show(guess.ToString());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

@@ -81,5 +81,10 @@ namespace winFinal
             OnClickMeClicked(sender, e);
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            OnClickMeClicked(sender, e);
+        }
+
     }
 }

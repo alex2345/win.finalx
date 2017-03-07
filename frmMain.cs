@@ -202,29 +202,6 @@ namespace winFinal
             frmG7 G7 = new winFinal.frmG7(); G7.Show();
         }
 
-        private void toolStrip_h1_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void toolStrip_h2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStrip_h3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStrip_h4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStrip_h5_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

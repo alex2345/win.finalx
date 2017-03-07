@@ -144,6 +144,7 @@
             this.textBox1.Size = new System.Drawing.Size(100, 34);
             this.textBox1.TabIndex = 6;
             this.textBox1.Text = "一非";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // radioButton2
             // 

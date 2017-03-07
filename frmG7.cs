@@ -17,5 +17,16 @@ namespace winFinal
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int i = Convert.ToInt32(textBox1.Text);
+            //
+            string s = Convert.ToString(i, 16).ToUpper();
+            MessageBox.Show("10進位轉16進位 " + s);
+            //
+            s = Convert.ToString(i, 2);
+            MessageBox.Show("10進位轉2進位 " + s);
+        }
+
     }
 }

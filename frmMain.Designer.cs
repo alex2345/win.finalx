@@ -73,12 +73,6 @@
             this.toolStrip_g5 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip_g6 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip_g7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem_h = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip_h1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip_h2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip_h3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip_h4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip_h5 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,8 +86,7 @@
             this.toolStripMenuItem_d,
             this.toolStripMenuItem_e,
             this.toolStripMenuItem_f,
-            this.toolStripMenuItem_g,
-            this.toolStripMenuItem_h});
+            this.toolStripMenuItem_g});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
@@ -453,54 +446,6 @@
             this.toolStrip_g7.Text = "2進位10進位16進位轉換";
             this.toolStrip_g7.Click += new System.EventHandler(this.toolStrip_g7_Click);
             // 
-            // toolStripMenuItem_h
-            // 
-            this.toolStripMenuItem_h.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStrip_h1,
-            this.toolStrip_h2,
-            this.toolStrip_h3,
-            this.toolStrip_h4,
-            this.toolStrip_h5});
-            this.toolStripMenuItem_h.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.toolStripMenuItem_h.Name = "toolStripMenuItem_h";
-            this.toolStripMenuItem_h.Size = new System.Drawing.Size(104, 29);
-            this.toolStripMenuItem_h.Text = "課後練習";
-            // 
-            // toolStrip_h1
-            // 
-            this.toolStrip_h1.Name = "toolStrip_h1";
-            this.toolStrip_h1.Size = new System.Drawing.Size(230, 30);
-            this.toolStrip_h1.Text = "連接資料庫";
-            this.toolStrip_h1.Click += new System.EventHandler(this.toolStrip_h1_Click);
-            // 
-            // toolStrip_h2
-            // 
-            this.toolStrip_h2.Name = "toolStrip_h2";
-            this.toolStrip_h2.Size = new System.Drawing.Size(230, 30);
-            this.toolStrip_h2.Text = "ListBox移動資料";
-            this.toolStrip_h2.Click += new System.EventHandler(this.toolStrip_h2_Click);
-            // 
-            // toolStrip_h3
-            // 
-            this.toolStrip_h3.Name = "toolStrip_h3";
-            this.toolStrip_h3.Size = new System.Drawing.Size(230, 30);
-            this.toolStrip_h3.Text = "電子相簿";
-            this.toolStrip_h3.Click += new System.EventHandler(this.toolStrip_h3_Click);
-            // 
-            // toolStrip_h4
-            // 
-            this.toolStrip_h4.Name = "toolStrip_h4";
-            this.toolStrip_h4.Size = new System.Drawing.Size(230, 30);
-            this.toolStrip_h4.Text = "移動坦克";
-            this.toolStrip_h4.Click += new System.EventHandler(this.toolStrip_h4_Click);
-            // 
-            // toolStrip_h5
-            // 
-            this.toolStrip_h5.Name = "toolStrip_h5";
-            this.toolStrip_h5.Size = new System.Drawing.Size(230, 30);
-            this.toolStrip_h5.Text = "資料查詢";
-            this.toolStrip_h5.Click += new System.EventHandler(this.toolStrip_h5_Click);
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -509,7 +454,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmMain";
+            this.Text = "frmMain (一非)";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -564,12 +509,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStrip_g5;
         private System.Windows.Forms.ToolStripMenuItem toolStrip_g6;
         private System.Windows.Forms.ToolStripMenuItem toolStrip_g7;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_h;
-        private System.Windows.Forms.ToolStripMenuItem toolStrip_h1;
-        private System.Windows.Forms.ToolStripMenuItem toolStrip_h2;
-        private System.Windows.Forms.ToolStripMenuItem toolStrip_h3;
-        private System.Windows.Forms.ToolStripMenuItem toolStrip_h4;
-        private System.Windows.Forms.ToolStripMenuItem toolStrip_h5;
     }
 }
 

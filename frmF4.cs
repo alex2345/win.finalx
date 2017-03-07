@@ -19,6 +19,7 @@ namespace winFinal
 
         private void frmF4_Load(object sender, EventArgs e)
         {
+            listBox1.SelectionMode = SelectionMode.MultiExtended;
             listBox1.Items.Add("abc");
             listBox1.Items.Add("def");
             listBox1.Items.Add("ghi");
