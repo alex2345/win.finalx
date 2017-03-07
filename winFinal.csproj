@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmH1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmH1.Designer.cs">
+      <DependentUpon>frmH1.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmG2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -285,6 +291,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmH1.resx">
+      <DependentUpon>frmH1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmG2.resx">
       <DependentUpon>frmG2.cs</DependentUpon>
     </EmbeddedResource>

@@ -44,7 +44,7 @@ namespace winFinal
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void renew_listBox1()
         {
             listBox1.Items.Clear();
             for (int i = 0; i < checkedListBox1.Items.Count; i++)
@@ -55,11 +55,16 @@ namespace winFinal
                 }
             }
         }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            renew_listBox1();
+        }
 
         private void frmF2_Load(object sender, EventArgs e)
         {
             string[] ary = new string[] { "慢跑", "游泳", "登山", "體操" };
             checkedListBox1.Items.AddRange(ary);
         }
+
     }
 }
